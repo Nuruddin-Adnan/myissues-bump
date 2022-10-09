@@ -1,0 +1,419 @@
+/*  bump global start */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bump a {
+    text-decoration: none;
+}
+
+.bump .btn-default {
+    font-weight: 600;
+    font-size: 24px;
+    color: #90918b;
+    background-color: #f1f2ec;
+    border: 2px solid #d2d5ce;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.bump .btn-default:hover {
+    color: #90918b;
+    background-color: #e0e0de;
+    border: 2px solid #d2d5ce;
+}
+
+.bump .btn-tilt {
+    background-color: #006f85;
+    color: #fff;
+}
+
+.bump .btn-tilt:hover {
+    background-color: #02677b;
+    color: #fff;
+}
+
+/* bump global end */
+
+
+/* bump top-add start */
+.bump .top-add .bar-icon {
+    color: #5f605e;
+    font-size: 35px;
+}
+
+.bump .top-add h2 {
+    color: #343432;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.bump .top-add p {
+    font-size: 18px;
+    color: #a9a9a9;
+    font-weight: 500;
+}
+
+/* bump top-add end */
+
+
+/* bump bump-action start */
+.bump-action .bump-header .bump-heading {
+    background-color: #006f85;
+    position: relative;
+    border-radius: 50px;
+    padding: 0px 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.bump-action .bump-header .bump-heading::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid #006f85;
+    top: 80%;
+    right: -4px;
+    transform: rotate(60deg);
+}
+
+.bump-action .bump-header i {
+    font-size: 28px;
+    color: #b8bab3;
+}
+
+/* end of bump bump-action */
+
+/*  ############## bump post-details start  ############## */
+
+.post-details .banner {
+    position: relative;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .post-details .banner {
+        margin-top: 20px;
+    }
+}
+
+.post-details .banner .button-prev,
+.post-details .banner .button-next {
+    font-size: 60px;
+    line-height: 60px;
+    color: #5f605e;
+    padding: 0;
+    width: 50px;
+    height: 75px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+
+    .post-details .banner .button-prev,
+    .post-details .banner .button-next {
+        width: 80px;
+        height: 120px;
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+.post-details .banner .button-prev:focus,
+.post-details .banner .button-next:focus {
+    box-shadow: none;
+}
+
+.post-details .banner .button-prev {
+    left: -10px;
+}
+
+.post-details .banner .button-next {
+    right: -10px;
+}
+
+.post-details .banner .pagination {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #5f605e;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .post-details .banner .pagination {
+        font-size: 24px;
+    }
+}
+
+.post-details .banner .user-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #5f605e;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .post-details .banner .user-icon {
+        font-size: 24px;
+    }
+}
+
+.post-details .video-picture .card {
+    border-color: transparent;
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.29);
+    padding: 15px;
+    height: 100%;
+}
+
+.post-details .video-picture .card .heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5f605e;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    .post-details .video-picture .card .heading {
+        font-size: 24px;
+    }
+}
+
+.post-details .video-picture .video {
+    width: 30%;
+    margin-right: 15px;
+}
+
+@media (min-width: 576px) {
+    .post-details .video-picture .video {
+        margin-right: 30px;
+    }
+
+    .post-details .video-picture .video .card {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.post-details .video-picture .picture {
+    width: 70%;
+}
+
+.post-details .video-picture .picture img {
+    border: 1px solid #242122;
+    border-radius: 4px;
+}
+
+.post-details .profile .card {
+    border: none;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.16);
+}
+
+.post-details .profile .card .profile-info label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .card .profile-info label {
+        font-size: 22px;
+    }
+}
+
+.post-details .profile .card .profile-info h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #343432;
+}
+
+.post-details .profile .card .profile-info h2.text-pink {
+    color: #872576;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .card .profile-info h2 {
+        font-size: 24px;
+    }
+}
+
+.post-details .profile .card .btn {
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    padding: 1rem 0.5rem;
+    height: 100%;
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.29);
+    transition: all 0.2s linear;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .card .btn {
+        font-size: 24px;
+    }
+}
+
+.post-details .profile .card .btn.btn-warning {
+    background: #fdb934;
+    color: #fff;
+}
+
+.post-details .profile .card .btn.btn-info {
+    background: #00768a;
+    color: #fff;
+}
+
+.post-details .profile .card .btn.btn-light {
+    background: #eff1ec;
+    color: #5f605e;
+}
+
+.post-details .profile .card .btn:hover {
+    opacity: 0.9;
+}
+
+.post-details .profile .profile-description .title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #5f605e;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .profile-description .title {
+        font-size: 30px;
+    }
+}
+
+.post-details .profile .profile-description .description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .profile-description .description {
+        font-size: 18px;
+    }
+}
+
+.post-details .profile .profile-description .btn-light {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .post-details .profile .profile-description .btn-light {
+        font-size: 20px;
+    }
+}
+
+/* ############## end of bump post-details ############## */
+
+
+
+/*  ############## bump organizer-location start  ############## */
+.organizer-location .card {
+    border: none;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.16);
+}
+
+.organizer-location .section-title-cyan {
+    font-size: 20px;
+    font-weight: 600;
+    color: #006f85;
+}
+
+.organizer-location .card p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #989994;
+}
+
+@media (min-width: 768px) {
+    .organizer-location .section-title-cyan {
+        font-size: 30px;
+    }
+
+    .organizer-location .card p {
+        font-size: 17px;
+    }
+}
+
+/* ############## end of bump organizer-location ############## */
+
+
+/*  ############## bump ? start  ############## */
+/* ############## end of bump ? ############## */
+
+
+
+
+/* ################ responsive start ################ */
+@media screen and (max-width: 767px) {
+    .bump .btn-default {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .bump .top-add .bar-icon {
+        font-size: 22px;
+    }
+
+    .bump .top-add h2 {
+        font-size: 16px;
+    }
+
+    .bump .top-add p {
+        font-size: 12px;
+    }
+
+    .bump-action .bump-header .bump-heading {
+        padding: 0px 15px;
+        font-size: 17px;
+    }
+
+    .bump-action .bump-header i {
+        font-size: 17px;
+    }
+}
+
+/* ################ end of responsive ################ */
