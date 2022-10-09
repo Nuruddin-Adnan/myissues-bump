@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* global  end */
+
+.page-24 {
+    background-color: #f0f2ee;
+    padding-bottom: 40px;
+}
+
+/* ############# top-menu  start #############*/
+.page-24 .top-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.page-24 .top-menu a {
+    text-align: center;
+    display: block;
+    background-color: #f5f5f0;
+    border: 2px solid #dbdbd9;
+    padding: 1.5rem 0.5rem;
+    height: 100%;
+}
+
+.page-24 .top-menu a h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b2b1af;
+}
+
+/* ############# End of top-menu  #############*/
+
+
+/* ############# bamp-ad-card  start #############*/
+.bamp-ad-card {
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.bamp-ad-card:last-child {
+    margin-bottom: 0px;
+}
+
+.bamp-ad-card .card-header {
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.bamp-ad-card .card-header p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #b2b1af;
+    margin-bottom: 0px;
+}
+
+.bamp-ad-card .card-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1d202f;
+    margin-bottom: 15px;
+}
+
+.bamp-ad-card .card-header h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6a6c69;
+}
+
+/* bump bump-action start */
+.bamp-ad-card .card-footer {
+    padding: 0px 15px 15px 15px;
+    border-top: 1px solid #7f7f7f;
+}
+
+.bamp-ad-card .btn-default {
+    font-weight: 600;
+    font-size: 20px;
+    color: #9d9d9c;
+    background-color: #f0f2ee;
+    border: 2px solid #dedfd8;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.bamp-ad-card .btn-default:hover {
+    color: #90918b;
+    background-color: #e0e0de;
+    border: 2px solid #d2d5ce;
+}
+
+.bamp-ad-card .btn-green {
+    background-color: #57a788;
+    color: #fff;
+    border: 2px solid #2c8361;
+}
+
+.bamp-ad-card .btn-green:hover {
+    background-color: #418e70;
+    color: #fff;
+    border: 2px solid #1f7f97;
+}
+
+.bamp-ad-card .btn-cyan {
+    background-color: #4f9caf;
+    color: #fff;
+    border: 2px solid #2c8361;
+}
+
+.bamp-ad-card .btn-cyan:hover {
+    background-color: #3e8394;
+    color: #fff;
+    border: 2px solid #1f7f97;
+}
+
+.bamp-ad-card .danger-outline {
+    background-color: #fff;
+    color: #c3566a;
+    border-color: #c3566a;
+}
+
+.bamp-ad-card .danger-outline:hover {
+    background-color: #c3566a;
+    color: #fff;
+    border-color: #c3566a;
+}
+
+.bump-action .bump-header .bump-heading {
+    background-color: #578bbd;
+    position: relative;
+    border-radius: 50px;
+    padding: 0px 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.bump-action .bump-header .bump-heading::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid #578bbd;
+    top: 80%;
+    right: -4px;
+    transform: rotate(60deg);
+}
+
+.bump-action .bump-header i {
+    font-size: 28px;
+    color: #b8bab3;
+}
+
+/* end of bump bump-action */
+
+/* ############# End of bamp-ad-card  #############*/
+
+
+/* ############# responsive  start #############*/
+@media screen and (max-width: 767px) {
+    .page-24 .top-menu a {
+        padding: 1rem 0.2rem;
+    }
+
+    .page-24 .top-menu a h5 {
+        font-size: 12px;
+    }
+
+    .bamp-ad-card .card-header p {
+        font-size: 11px;
+    }
+
+    .bamp-ad-card .card-header h2 {
+        font-size: 18px;
+    }
+
+    .bamp-ad-card .card-header h5 {
+        font-size: 12px;
+    }
+
+    .bamp-ad-card .btn-default {
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .bump-action .bump-header .bump-heading {
+        padding: 0px 15px;
+        font-size: 13px;
+    }
+
+    .bump-action .bump-header i {
+        font-size: 13px;
+    }
+}
+
+/* ############# End of responsive  #############*/
