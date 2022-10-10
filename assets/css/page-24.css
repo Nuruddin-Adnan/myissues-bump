@@ -78,6 +78,77 @@ a {
     color: #6a6c69;
 }
 
+/* card body / ad status*/
+.bamp-ad-card .card-body .img .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #9c9e9f;
+}
+
+.bamp-ad-card .card-body .img i {
+    font-size: 30px;
+    color: #9c9e9f;
+    margin-right: 20px;
+}
+
+.bamp-ad-card .card-body .img .ad-hidden {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+}
+
+.bamp-ad-card .card-body .img .ad-hidden i {
+    color: #4d483c;
+    opacity: 0.8;
+    font-size: 5rem;
+    margin-right: 0;
+}
+
+.bamp-ad-card .card-body .img i.fa-check-square {
+    color: #3a9b43;
+}
+
+.bamp-ad-card .card-body .text li {
+    margin-bottom: 20px;
+}
+
+.bamp-ad-card .card-body .text li h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #48483d;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.bamp-ad-card .card-body .text li h3.text-orange {
+    color: #f98806;
+}
+
+.bamp-ad-card .card-body .text li h3.text-green {
+    color: #76bd5d;
+}
+
+.bamp-ad-card .card-body .text li h3.text-blue {
+    color: #59a8ea;
+    font-size: 24px;
+}
+
+.bamp-ad-card .card-body .text li p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9d9d9c;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+/* card body / ad status */
+
 /* bump bump-action start */
 .bamp-ad-card .card-footer {
     padding: 0px 15px 15px 15px;
@@ -126,14 +197,14 @@ a {
 
 .bamp-ad-card .danger-outline {
     background-color: #fff;
-    color: #c3566a;
-    border-color: #c3566a;
+    color: #cc4e51;
+    border-color: #cc4e51;
 }
 
 .bamp-ad-card .danger-outline:hover {
-    background-color: #c3566a;
+    background-color: #cc4e51;
     color: #fff;
-    border-color: #c3566a;
+    border-color: #cc4e51;
 }
 
 .bump-action .bump-header .bump-heading {
@@ -196,6 +267,39 @@ a {
         font-size: 11px;
         padding: 10px;
     }
+
+
+    /* card body / ad status*/
+    .bamp-ad-card .card-body .img .title {
+        font-size: 14px;
+    }
+
+    .bamp-ad-card .card-body .img i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .bamp-ad-card .card-body .img .ad-hidden i {
+        font-size: 3rem;
+    }
+
+    .bamp-ad-card .card-body .text li {
+        margin-bottom: 10px;
+    }
+
+    .bamp-ad-card .card-body .text li h3 {
+        font-size: 12px;
+    }
+
+    .bamp-ad-card .card-body .text li h3.text-blue {
+        font-size: 14px;
+    }
+
+    .bamp-ad-card .card-body .text li p {
+        font-size: 10px;
+    }
+
+    /* card body / ad status */
 
     .bump-action .bump-header .bump-heading {
         padding: 0px 15px;
